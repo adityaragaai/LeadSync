@@ -1,0 +1,15 @@
+
+> superleap@0.0.0 build
+> tsc -b && vite build
+
+src/components/leads/LeadForm.tsx(5,15): error TS6133: 'CreateLeadInput' is declared but its value is never read.
+src/components/leads/StatusTransition.tsx(2,46): error TS6133: 'STATUS_COLORS' is declared but its value is never read.
+src/hooks/useLeadActions.ts(3,32): error TS6133: 'CreateLeadInput' is declared but its value is never read.
+src/pages/BoardPage.tsx(11,8): error TS6133: 'DragOverEvent' is declared but its value is never read.
+src/pages/BoardPage.tsx(16,3): error TS6133: 'arrayMove' is declared but its value is never read.
+src/pages/BoardPage.tsx(17,3): error TS6133: 'SortableContext' is declared but its value is never read.
+src/pages/BoardPage.tsx(19,3): error TS6133: 'verticalListSortingStrategy' is declared but its value is never read.
+src/pages/LeadsPage.tsx(9,33): error TS6133: 'AlertCircle' is declared but its value is never read.
+src/pages/LeadsPage.tsx(9,46): error TS6133: 'Trash2' is declared but its value is never read.
+src/pages/LeadsPage.tsx(9,54): error TS6133: 'CheckSquare' is declared but its value is never read.
+src/pages/LeadsPage.tsx(16,85): error TS6133: 'isDeleting' is declared but its value is never read.
