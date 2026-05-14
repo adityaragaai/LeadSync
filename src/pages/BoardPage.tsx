@@ -17,7 +17,7 @@ import { useLeadActions } from '../hooks/useLeadActions';
 import { type LeadStatus, type Lead, VALID_TRANSITIONS } from '../types/lead';
 import KanbanColumn from '../components/board/KanbanColumn';
 import KanbanCard from '../components/board/KanbanCard.tsx';
-import { Loader2, Search, Kanban } from 'lucide-react';
+import { Loader2 } from 'lucide-react';
 import { useSearchParams } from 'react-router-dom';
 import { toast } from 'sonner';
 

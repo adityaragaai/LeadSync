@@ -2,9 +2,8 @@ import React from 'react';
 import { useSortable } from '@dnd-kit/sortable';
 import { CSS } from '@dnd-kit/utilities';
 import { type Lead } from '../../types/lead';
-import { Mail, Phone, Calendar } from 'lucide-react';
+import { Calendar } from 'lucide-react';
 import { formatDistanceToNow } from 'date-fns';
-import { STATUS_COLORS } from '../../types/lead';
 
 interface KanbanCardProps {
   lead: Lead;
@@ -27,7 +26,6 @@ const KanbanCard: React.FC<KanbanCardProps> = ({ lead, isOverlay }) => {
     opacity: isDragging ? 0.25 : 1,
   };
 
-  const colors = STATUS_COLORS[lead.status];
 
   const content = (
     <div

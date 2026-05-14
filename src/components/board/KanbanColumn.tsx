@@ -1,7 +1,7 @@
 import React from 'react';
 import { useDroppable } from '@dnd-kit/core';
 import { SortableContext, verticalListSortingStrategy } from '@dnd-kit/sortable';
-import { type Lead, type LeadStatus, STATUS_COLORS } from '../../types/lead';
+import { type Lead, type LeadStatus } from '../../types/lead';
 import KanbanCard from './KanbanCard.tsx';
 
 interface KanbanColumnProps {
