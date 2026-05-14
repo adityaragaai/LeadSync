@@ -6,6 +6,10 @@
 
 Superleap is a highly interactive, production-ready Mini Lead CRM built with React. It provides a robust interface to track, manage, and transition sales leads through a pipeline using both a classic tabular view and an interactive drag-and-drop Kanban board.
 
+## 🌍 Live Demo
+
+🚀 **[View the Live Deployment Here](https://lead-sync-beige.vercel.app/leads)**
+
 ## 📸 Screenshots
 
 ![Superleap Leads List](screenshot_leads.png)
