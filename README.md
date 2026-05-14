@@ -38,8 +38,8 @@ Superleap is a highly interactive, production-ready Mini Lead CRM built with Rea
 
 1. **Clone the repository:**
    ```bash
-   git clone <repo-url>
-   cd Superleap
+   git clone https://github.com/adityaragaai/LeadSync.git
+   cd LeadSync
    ```
 
 2. **Install dependencies:**
@@ -51,6 +51,9 @@ Superleap is a highly interactive, production-ready Mini Lead CRM built with Rea
    ```bash
    npm run dev
    ```
+
+> [!NOTE]
+> By default, the application expects a backend API running at `http://localhost:4000`. You can configure this in `src/api/leadApi.ts`.
 
 ## 📐 Architecture & Organization
 
