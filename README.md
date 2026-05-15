@@ -8,7 +8,7 @@ Superleap is a highly interactive, production-ready Mini Lead CRM built with Rea
 
 ## 🌍 Live Demo
 
-🚀 **[View the Live Deployment Here](https://lead-sync-beige.vercel.app/leads)**
+🚀 **[View the Live Deployment Here](https://lead-sync-beige.vercel.app)**
 
 ## 📸 Screenshots
 
